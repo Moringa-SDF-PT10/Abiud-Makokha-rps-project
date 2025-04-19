@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>RPS 101 Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div id="start-screen">
+    <h1>Rock-Paper-Scissors 101</h1>
+    <button id="start-btn">Start Game</button>
+  </div>
+
+  <div id="game-screen" class="hidden">
+    <h2>Round <span id="round-number">1</span> of 3</h2>
+
+    <div class="dropdowns">
+      <div>
+        <label for="player1">Player 1:</label>
+        <select id="player1">
+          <option value="" disabled selected>Select object</option>
+        </select>
+      </div>
+      <div>
+        <label for="player2">Player 2:</label>
+        <select id="player2">
+          <option value="" disabled selected>Select object</option>
+        </select>
+      </div>
+    </div>
+
+    <button id="play-btn" disabled>Play Round</button>
+
+    <div id="result"></div>
+    <div id="scoreboard">
+      <p>Player 1: <span id="score1">0</span></p>
+      <p>Player 2: <span id="score2">0</span></p>
+    </div>
+
+    <button id="restart-btn" class="hidden">Restart Game</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
