@@ -1,46 +1,48 @@
 body {
-    font-family:  sans-serif;
-    text-align: center;
-    padding: 20px;
-    background-color: #dd3bf2;
-  }
-  
-  .hidden {
-    display: none;
-  }
-  
-  #game-screen {
-    margin-top: 20px;
-  }
-  
-  .dropdowns {
-    margin: 20px 0;
-    display: flex;
-    justify-content: center;
-    gap: 40px;
-  }
-  
-  select {
-    padding: 5px;
-    font-size: 20px;
-  }
-  
-  button {
-    padding: 10px 20px;
-    font-size: 20px;
-    cursor: pointer;
-    margin-top: 10px;
-  }
-  
-  #result {
-    margin: 20px;
-    font-size: 18px;
-    font-weight: bold;
-    white-space: pre-wrap;
-  }
-  
-  #scoreboard {
-    margin-top: 20px;
-    font-size: 20px;
-  }
-  
+  font-family:'Gill Sans MT';
+  text-align: center;
+  padding: 20px;
+  background-color: #dd3bf2;
+}
+
+.hidden {
+  display: none;
+}
+
+#game-screen {
+  margin-top: 20px;
+}
+
+.dropdowns {
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+select {
+  padding: 5px;
+  font-size: 20px;
+  width: 200px;
+  max-width: 100%;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 20px;
+  cursor: pointer;
+  margin-top: 10px;
+  width: auto;
+}
+
+#result {
+  margin: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  white-space: pre-wrap;
+}
+
+#scoreboard {
+  margin-top: 25px;
+  font-size: 25px;
+}

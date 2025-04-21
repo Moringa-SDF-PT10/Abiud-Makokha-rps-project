@@ -2,41 +2,44 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>RPS 101 Game</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
   <div id="start-screen">
-    <h1>Rock-Paper-Scissors 101</h1>
+    <h1>Welcome to ROCK-PAPER-SCISSOR Game</h1>
     <button id="start-btn">Start Game</button>
   </div>
 
   <div id="game-screen" class="hidden">
-    <h2>Round <span id="round-number">1</span> of 3</h2>
+    <h2>Round <span id="round-number">1</span></h2>
 
     <div class="dropdowns">
       <div>
-        <label for="player1">Player 1:</label>
+        <label for="player1">Player 1</label><br>
         <select id="player1">
-          <option value="" disabled selected>Select object</option>
+          <option value="">Select</option>
         </select>
       </div>
+
       <div>
-        <label for="player2">Player 2:</label>
+        <label for="player2">Player 2</label><br>
         <select id="player2">
-          <option value="" disabled selected>Select object</option>
+          <option value="">Select</option>
         </select>
       </div>
     </div>
 
     <button id="play-btn" disabled>Play Round</button>
 
-    <div id="result"></div>
     <div id="scoreboard">
-      <p>Player 1: <span id="score1">0</span></p>
-      <p>Player 2: <span id="score2">0</span></p>
+      Player 1: <span id="score1">0</span> |
+      Player 2: <span id="score2">0</span>
     </div>
+
+    <div id="result"></div>
 
     <button id="restart-btn" class="hidden">Restart Game</button>
   </div>
